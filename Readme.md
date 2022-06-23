@@ -6,7 +6,7 @@
 
 # WPF Dock Layout Manager - Save and Restore Settings of All Controls That Are Present in the UI
 
-DevExpress WPF Controls include methods that allow you to save and restore a layout of specific controls (such as [DockLayoutManager.SaveLayoutToStream](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.SaveLayoutToStream(System.IO.Stream)) and [DockLayoutManager.RestoreLayoutFromStream](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.RestoreLayoutFromStream(System.IO.Stream)). This controls do not take into account other nested DevExpress controls. 
+DevExpress WPF Controls include methods that allow you to save and restore a layout of specific controls (such as [DockLayoutManager.SaveLayoutToStream](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.SaveLayoutToStream(System.IO.Stream)) and [DockLayoutManager.RestoreLayoutFromStream](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.RestoreLayoutFromStream(System.IO.Stream)).
 
 <!-- default file list -->
 ## Files to Look At
