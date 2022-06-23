@@ -3,19 +3,18 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2272)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+
+# WPF Dock Layout Manager - Save and Restore Settings of All Controls That Are Present in the UI
+
+DevExpress WPF Controls include methods that allow you to save and restore a layout of specific controls (such as [DockLayoutManager.SaveLayoutToStream](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.SaveLayoutToStream(System.IO.Stream)) and [DockLayoutManager.RestoreLayoutFromStream](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.RestoreLayoutFromStream(System.IO.Stream)). This controls do not take into account other nested DevExpress controls. 
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At
 
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
-* **[MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))**
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
 <!-- default file list end -->
-# How to: Save and Restore Settings of All Controls That Are Present in the UI
 
-
-Methods for saving and restoring a layout implemented in specific controls (such as <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfDockingDockLayoutManager_SaveLayoutToStreamtopic">DockLayoutManager.SaveLayoutToStream</a> and <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfDockingDockLayoutManager_RestoreLayoutFromStreamtopic">DockLayoutManager.RestoreLayoutFromStream</a>) are intended for saving/restoring settings of a specific control and do not take into account other nested DevExpress controls. To be able to save settings of all controls on your window, use the <a href="https://documentation.devexpress.com/#WPF/clsDevExpressXpfCoreWorkspaceManagertopic">WorkspaceManager</a> class. This example demonstrates how to use this class.
-<p><strong>See also:</strong></p>
-<p><a href="https://documentation.devexpress.com/#WPF/CustomDocument7409">Saving and Restoring Layout Basics</a></p>
-
-<br/>
-
-
+## Documentation
+- [Save and Restore the Layout of Dock Panels and Controls](https://docs.devexpress.com/WPF/7059/controls-and-libraries/layout-management/dock-windows/miscellaneous/saving-and-restoring-the-layout-of-dock-panels-and-controls)
+- [Save/Restore Control Layout Overview](https://docs.devexpress.com/WPF/7391/common-concepts/save-and-restore-layouts)
