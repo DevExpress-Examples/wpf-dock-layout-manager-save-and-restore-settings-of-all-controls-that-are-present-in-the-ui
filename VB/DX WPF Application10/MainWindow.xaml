@@ -13,36 +13,36 @@
         dx:ThemeManager.ThemeName="Office2007Blue"
     >
     <dxd:DockLayoutManager>
-        <dxd:LayoutGroup x:Name="group0" >
+        <dxd:LayoutGroup x:Name="group0">
             <dxd:LayoutPanel x:Name="panel1" Caption="Navigation">
                 <StackPanel Orientation="Vertical" Margin="12" Height="Auto">
-                    <Button Content="Save" Click="ButtonSave_Click"/>                    
-                    <Button Content="Restore" Click="ButtonRestore_Click"/>
+                    <Button Content="Save" Click="ButtonSave_Click" />                    
+                    <Button Content="Restore" Click="ButtonRestore_Click" />
                 </StackPanel>
             </dxd:LayoutPanel>
-            <dxd:LayoutGroup  x:Name="group1" Orientation="Vertical" Width="3*">
-                <dxd:LayoutPanel  x:Name="panel2" Caption="MainView" Height="3*" CaptionImage="Images/Icons/MainView.png">
+            <dxd:LayoutGroup x:Name="group1" Orientation="Vertical" ItemWidth="3*">
+                <dxd:LayoutPanel x:Name="panel2" Caption="MainView" CaptionImage="Images/Icons/MainView.png" ItemHeight="3*">
                     <dxg:GridControl AutoPopulateColumns="True" ShowBorder="False">
                         <dxg:GridControl.ItemsSource>
                             <collections:ArrayList>
-                                <local:TestData Text="Row0" Number="0"/>
-                                <local:TestData Text="Row1" Number="1"/>
-                                <local:TestData Text="Row2" Number="2"/>
-                                <local:TestData Text="Row3" Number="3"/>
-                                <local:TestData Text="Row4" Number="4"/>
-                                <local:TestData Text="Row5" Number="5"/>
-                                <local:TestData Text="Row6" Number="6"/>
-                                <local:TestData Text="Row7" Number="7"/>
-                                <local:TestData Text="Row8" Number="8"/>
-                                <local:TestData Text="Row9" Number="9"/>
+                                <local:TestData Text="Row0" Number="0" />
+                                <local:TestData Text="Row1" Number="1" />
+                                <local:TestData Text="Row2" Number="2" />
+                                <local:TestData Text="Row3" Number="3" />
+                                <local:TestData Text="Row4" Number="4" />
+                                <local:TestData Text="Row5" Number="5" />
+                                <local:TestData Text="Row6" Number="6" />
+                                <local:TestData Text="Row7" Number="7" />
+                                <local:TestData Text="Row8" Number="8" />
+                                <local:TestData Text="Row9" Number="9" />
                             </collections:ArrayList>
                         </dxg:GridControl.ItemsSource>
                         <dxg:GridControl.View>
-                            <dxg:TableView/>
+                            <dxg:TableView />
                         </dxg:GridControl.View>
                     </dxg:GridControl>
                 </dxd:LayoutPanel>
-                <dxd:LayoutPanel  x:Name="panel3" Caption="DetailView" Height="*"  CaptionImage="Images/Icons/DetailView.png">
+                <dxd:LayoutPanel x:Name="panel3" Caption="DetailView" CaptionImage="Images/Icons/DetailView.png" ItemHeight="*">
 
                 </dxd:LayoutPanel>
             </dxd:LayoutGroup>
