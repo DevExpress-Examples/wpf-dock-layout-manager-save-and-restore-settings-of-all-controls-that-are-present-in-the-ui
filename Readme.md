@@ -23,4 +23,3 @@ DevExpress WPF Controls include methods that allow you to save and restore a lay
 
 - [WPF Dock Layout Manager - Serialize Custom Panels and Their Properties](https://github.com/DevExpress-Examples/wpf-dock-layout-manager-serialize-custom-panels-and-their-properties)
 - [WPF Dock Layout Manager - Save and Restore the DockLayoutManager's Layout](https://github.com/DevExpress-Examples/wpf-dock-layout-manager-save-and-restore-the-dock-layout-managers-layout)
-- [WPF Dock Layout Manager - Serialize a Particular Panel's Layout](https://github.com/DevExpress-Examples/wpf-dock-layout-manager-serialize-a-particular-panels-layout)
